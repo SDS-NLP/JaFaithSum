@@ -1,4 +1,4 @@
-# JaFaithSum: 日本語LLM要約のFaithfulness評価データセット
+#日本語LLM要約のFaithfulness評価データセット
 
 LLMによる日本語要約のHallucination検出のための評価データセットです。文単位のFaithfulnessアノテーションを含みます。
 
