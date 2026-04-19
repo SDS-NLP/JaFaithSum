@@ -1,4 +1,4 @@
-# JaFaithSum: A Japanese Faithfulness Evaluation Dataset for LLM Summarization
+#A Japanese Faithfulness Evaluation Dataset for LLM Summarization
 
 A Japanese evaluation dataset for hallucination detection in LLM-generated summarization, with sentence-level faithfulness annotations.
 
