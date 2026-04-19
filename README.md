@@ -5,7 +5,7 @@ A Japanese evaluation dataset for hallucination detection in LLM-generated summa
 For details, see our paper:
 > Hikari Tanaka, Atsushi Keyaki, and Mamoru Komachi. 2026. [Constructing a Dataset for Hallucination Detection in Japanese Summarization with Fine-grained Faithfulness Labels](https://aclanthology.org/2026.eacl-srw.15/). In *Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 4: Student Research Workshop)*, pages 207–218, Rabat, Morocco. Association for Computational Linguistics.
 
-*[日本語版 README はこちら → README_ja.md]*
+*[日本語版 README はこちら → README_ja.md[https://github.com/hikaritcs/JaFaithSum/blob/main/README_ja.md]]*
 
 ---
 
