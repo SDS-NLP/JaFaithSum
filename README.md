@@ -5,7 +5,7 @@ A Japanese evaluation dataset for hallucination detection in LLM-generated summa
 For details, see our paper:
 > Hikari Tanaka, Atsushi Keyaki, and Mamoru Komachi. 2026. [Constructing a Dataset for Hallucination Detection in Japanese Summarization with Fine-grained Faithfulness Labels](https://aclanthology.org/2026.eacl-srw.15/). In *Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 4: Student Research Workshop)*, pages 207–218, Rabat, Morocco. Association for Computational Linguistics.
 
-*[日本語版 README はこちら → README_ja.md[https://github.com/hikaritcs/JaFaithSum/blob/main/README_ja.md]]*
+*[日本語版 README はこちら → README_ja.md](README_ja.md)*
 
 ---
 
@@ -126,9 +126,9 @@ Aggregation rule:
 
 | Model ID in dataset | Model |
 |---------------------|-------|
-| `GPT-4o` | [GPT-4o](https://openai.com/index/hello-gpt-4o/) |
-| `Swallow` | [Swallow](https://tokyotech-llm.github.io/swallow-llama) |
-| `LLM-jp` | [LLM-jp](https://llm-jp.nii.ac.jp/) |
+| `GPT-4o` | [GPT-4o](https://developers.openai.com/api/docs/models/gpt-4o) |
+| `Swallow` | [Swallow](https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.2) |
+| `LLM-jp` | [LLM-jp](https://huggingface.co/llm-jp/llm-jp-3-13b-instruct) |
 
 ---
 
@@ -191,13 +191,14 @@ def custom_aggregate(sentence, min_votes=2):
 ```
 
 ---
-
 ## License
 
-This dataset is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-The source articles are derived from [XL-Sum](https://github.com/csebuetnlp/xl-sum) (CC BY-NC-SA 4.0). Copyright of the original article contents belongs to the respective copyright holders.
-
+**Copyright**
+- The annotation data and accompanying code (e.g., `utils.py`) are copyright the authors.
+- The source articles are derived from [XL-Sum](https://github.com/csebuetnlp/xl-sum) (CC BY-NC-SA 4.0). Copyright of the original article contents belongs to the respective copyright holders.
+- No copyright is claimed over the LLM-generated summaries.
 ---
 
 ## Citation
